@@ -27,6 +27,7 @@ tron1-rl-isaaclab/
 
 
 ## 在tasks/locomotion/部分中
+```text
 -agents
     ppo cfg 隐层、学习率、PPO 参数
             用奖励产生的回报/优势来更新策略参数
@@ -40,8 +41,7 @@ tron1-rl-isaaclab/
     curriculums.py 课程升级
 -robots
     limx_pointfoot_env_cfg.py 机器人配置 调用terrain场景配置
-
-
+```
 
 Modify reward:
 tasks/locomotion/mdp/rewards.py
