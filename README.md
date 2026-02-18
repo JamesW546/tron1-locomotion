@@ -3,6 +3,9 @@ TRON1 locomotion task built on Isaac Lab with PPO training
 
 文件结构
 
+## Project Structure
+
+```text
 tron1-rl-isaaclab/
 ├── exts/bipedal_locomotion/bipedal_locomotion/
 │   ├── assets/
@@ -19,6 +22,8 @@ tron1-rl-isaaclab/
     ├── train.py                   # training entry
     ├── play.py                    # policy rollout / evaluation
     └── cli_args.py                # CLI options
+```
+
 
 
 ## 在tasks/locomotion/部分中
