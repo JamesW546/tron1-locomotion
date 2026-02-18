@@ -61,4 +61,8 @@ Observation → Policy → Action → Simulation → Reward → PPO Update
 
 
 ##开始训练
-'''python scripts/rsl_rl/train.py --task=Isaac-Limx-PF-Blind-Flat-v0'''
+
+```text
+python scripts/rsl_rl/train.py --task=Isaac-Limx-PF-Blind-Flat-v0
+```
+
